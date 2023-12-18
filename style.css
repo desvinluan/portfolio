@@ -574,6 +574,10 @@ img {
         margin-left: 0.8em;
     }
 
+    .intro-section {
+        padding-top: 60px; 
+    }
+
     .left, 
     .right {
         flex-basis: 100%;
@@ -583,6 +587,7 @@ img {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: flex-start;
     }
     
     .left img {
