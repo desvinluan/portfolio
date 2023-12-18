@@ -579,7 +579,13 @@ img {
         flex-basis: 100%;
     }
 
-    .left img{
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .left img {
         margin-bottom: 60px;
     }
 
@@ -608,9 +614,6 @@ img {
         margin-top: 3em;
     }
     .scroll-container {
-        display: wrap;
-        position: fixed;
-        bottom: 1em;
-        right: 2em;
+        display: none;
     }
 }
