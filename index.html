@@ -34,7 +34,7 @@
                     <a class="link link--nav" href="#about">About</a>
                 </li>
                 <li class="nav__list-item">
-                    <a class="link link--nav" href="#projects">Projects</a>
+                    <a class="link link--nav" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav__list-item">
                     <a class="link link--nav" href="#skills">Skills</a>
@@ -71,7 +71,7 @@
             </div>   
         </section>
 
-        <section id="about" class="section about">
+        <section id="about" class="section about"> 
             <h1 class="section__title">About</h1>
             <div class="row1">
                 <div class="about-left">
@@ -80,18 +80,16 @@
                 <div class="about-right">
                     <div class="about__desc ">
                         <p>
-                            I am currently a second-year BSIT student eager to delve into the dynamic
-                            world of the IT industry. My primary goal is to explore diverse opportunities
-                            that will allow me to continuously expand my skills and contribute meaningfully
-                            to the field. Particularly, I am enthusiastic about developing challenging web
-                            applications. My commitment lies in delivering top-notch solutions and ensuring an
-                            exceptional experience for my clients.
+                            I am a second-year BSIT student with a strong interest in the dynamic field 
+                            of the IT industry. My main objective is to explore various opportunities to
+                            enhance my skills and make meaningful contributions. I am particularly 
+                            passionate about creating complex web applications and am dedicated to 
+                            delivering high-quality solutions for clients.
                             <br><br>
-                            I am excited about the prospect of contributing my skills to real-world
-                            projects and am eager to embrace new challenges. As I progress in my academic
-                            journey, I am confident that my dedication to excellence and passion for web
-                            application development will set the foundation for a successful and fulfilling
-                            career in the IT industry.
+                            I am eagerly looking forward to applying my skills to real-world projects and 
+                            taking on new challenges. As I advance in my academic path, I believe that my 
+                            commitment to excellence and enthusiasm for web application development will 
+                            establish the groundwork for a successful and satisfying career in IT.
                         </p>
                     </div>
                     <button id="downloadButton" class="button2" type="button">
@@ -101,7 +99,7 @@
             </div>
         </section>
 
-        <section id="projects" class="section projects ">
+        <section id="portfolio" class="section projects ">
             <h1 class="section__title">Portfolio</h1>
             <div class="projects__grid ">
                 <div class="project">
@@ -122,7 +120,7 @@
                     </p>
                     <img src="yummytea.webp">
                     <br>
-                    <button class="button1" onclick="openLink('yummyteashop.pdf')">
+                    <button class="button1" onclick="openFile('yummyteashop.pdf')">
                         <span class="button-content">Open PDF</span>
                     </button>
                 </div>
@@ -133,7 +131,7 @@
                     </p>
                     <img src="VAS Prototype.webp">
                     <br>
-                    <button class="button1" onclick="openLink('VASprototype.pdf')">
+                    <button class="button1" onclick="openFile('VASprototype.pdf')">
                         <span class="button-content">Open PDF</span>
                     </button>
                 </div>
@@ -307,6 +305,10 @@ document.getElementById('downloadButton').addEventListener('click', function() {
 
 function openLink(link) {
     window.open(link);
+}
+
+function openFile(filePath) {
+    window.open(filePath, '_blank');
 }
 
 </script>

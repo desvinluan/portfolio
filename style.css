@@ -280,6 +280,7 @@ main {
 
 .section {
     margin-top: 5em;
+    margin-bottom: 10em;
 }
 
 .section__title {
@@ -334,6 +335,7 @@ main {
     height: 250px;
     border: 5px solid #c5d2de21;
     border-radius: 50%;
+    max-width: 250px;
 }
 
 .right {
@@ -393,7 +395,7 @@ main {
 
 .about {
     flex-direction: column;
-    margin-top: 1em;
+    margin-top: 5em;
 }
 
 .row1 {
@@ -407,9 +409,7 @@ main {
 }
 
 .about-left img {
-    width: 80%;
-    height: 90%;
-    margin-left: 30px
+    max-width: 300px;
 }
 
 .about-right {
@@ -419,6 +419,7 @@ main {
 .about__desc {
     font-size: 18px;
     max-width: 600px;
+    margin-top: 1em;
 }
   
 .project {
