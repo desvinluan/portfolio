@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="title" content="Deserre Vinluan | Software Developer">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://desvinluan.github.io/portfolio/">
+    <link rel="stylesheet " href="style.css" />
+    <script src="https://use.fontawesome.com/f7291d0870.js "></script>
+    <script src="https://kit.fontawesome.com/fa62c117c7.js " crossorigin="anonymous "></script>
+    <link rel="icon" href="logo.png" type="image/png">
+    <title>Deserre Vinluan | Software Developer</title>
+</head>
+
+<body class="light " id="home">
+    <header class="header center">
+        <logo class="social-links">
+            </a>
+            <a target="_blank " href="https://facebook.com/deserrevinluan" aria-label="twitter " class="link link--icon ">
+                <i class="fa fa-facebook" aria-hidden="true "></i> 
+            </a>        
+            <a target="_blank " href="https://github.com/desvinluan" aria-label="github " class="link link--icon ">
+                <i class="fa fa-github " aria-hidden="true "></i>
+            </a>
+            <a target="_blank " href="https://www.instagram.com/httpseri_/" aria-label="github " class="link link--icon ">
+                <i class="fa fa-instagram" aria-hidden="true "></i>
+            </a>
+        </logo>
+
+        <nav class="nav center">
+            <ul class="nav__list center">
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#about">About</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#projects">Projects</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#skills">Skills</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="link link--nav" href="#contact">Contact</a>
+                </li>
+            </ul>
+            <button type="button" aria-label="toggle theme" class="btn btn--icon">
+                <i aria-hidden="true" id="btn-theme " class="fas fa-moon"></i>
+            </button>
+            
+            <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__fries">
+                <i aria-hidden="true" class="fas fa-bars"></i>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro-section">
+            <div class="row">
+                <div class="left">
+                    <img src="desi.webp">
+                </div>
+                <div class="right">
+            <div class="title-section">
+                <h1>
+                    Hi! I am
+                    <span class="highlight-name">DESERRE COMBITE VINLUAN.</span>
+                </h1>
+                <p class="subtitle-section">
+                    An IT student whose ultimately goal is to become a software developer.
+                </p>
+            </div>   
+        </section>
+
+        <section id="about" class="section about">
+            <h1 class="section__title">About</h1>
+            <div class="row1">
+                <div class="about-left">
+                    <img src="kkk.webp">
+                </div>
+                <div class="about-right">
+                    <div class="about__desc ">
+                        <p>
+                            I am currently a second-year BSIT student eager to delve into the dynamic
+                            world of the IT industry. My primary goal is to explore diverse opportunities
+                            that will allow me to continuously expand my skills and contribute meaningfully
+                            to the field. Particularly, I am enthusiastic about developing challenging web
+                            applications. My commitment lies in delivering top-notch solutions and ensuring an
+                            exceptional experience for my clients.
+                            <br><br>
+                            I am excited about the prospect of contributing my skills to real-world
+                            projects and am eager to embrace new challenges. As I progress in my academic
+                            journey, I am confident that my dedication to excellence and passion for web
+                            application development will set the foundation for a successful and fulfilling
+                            career in the IT industry.
+                        </p>
+                    </div>
+                    <button id="downloadButton" class="button2" type="button">
+                        <span class="button-content">DOWNLOAD RESUME</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section projects ">
+            <h1 class="section__title">Portfolio</h1>
+            <div class="projects__grid ">
+                <div class="project">
+                    <h4 class="proj-h">Kinaiya</h4>
+                    <p class="project__description">
+                        Top three (3) tourist destinations on the Philippine Island:<br/>Luzon, Visayas, and Mindanao.              
+                    </p>      
+                    <img src="kinaiya.webp">       
+                    <br>
+                    <button class="button1" onclick="openLink('https://www.figma.com/proto/b4JxAGOfFZJ9PmqyeXQ3Xw/PUBLISHED?type=design&node-id=1-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=7%3A23&fbclid=IwAR2TI5j0dAbvbg7ccUN-v3WgyIpriH9mGByZak2qEo3bFTtaKn4jaYFarDY')">
+                        <span class="button-content">Open Site</span>
+                    </button>
+                </div>
+                <div class="project ">
+                    <h4 class="proj-h">Yummy Tea Shop</h4>
+                    <p class="project__description ">
+                        Automated food ordering system with diverse menu, calculating totals, and printing receipts.
+                    </p>
+                    <img src="yummytea.webp">
+                    <br>
+                    <button class="button1" onclick="openFile('https://drive.google.com/file/d/1YwWfVYZl13xTnNltFOpGO6W80Kh79bA6/view')">
+                        <span class="button-content">Open PDF</span>
+                    </button>
+                </div>
+                <div class="project ">
+                    <h4 class="proj-h">VAS Prototype</h4>
+                    <p class="project__description ">
+                        Arduino prototype detects vibrations with sensors, LED, buzzer, LCD display.              
+                    </p>
+                    <img src="VAS Prototype.webp">
+                    <br>
+                    <button class="button1" onclick="openFile('https://drive.google.com/file/d/1PKD8DrH13BzQYQOgvYU26W5h5kkzM5v8/view')">
+                        <span class="button-content">Open PDF</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills " id="skills">
+            <h1 class="section__title">Skills</h1>
+            <h2 class="section__title ">Technologies</h2>
+            <div class="tech-desc ">
+                <p>
+                    These are the technology stacks with which I have experimented, and I am eager to engage in creating innovative projects while also exploring and learning additional programming languages.
+                </p>
+            </div>
+            <ul class="skills__list border border-primary ">
+                <li class="skills__list-item btn btn--plain "><i class="fab fa-html5 " aria-hidden="true "></i> HTML</li>
+                <li class="skills__list-item btn btn--plain "><i class="fab fa-css3 " aria-hidden="true "></i> CSS</li>
+                <li class="skills__list-item btn btn--plain "><i class="fab fa-js "></i> JavaScript</li>
+                <li class="skills__list-item btn btn--plain "><i class="fab fa-git-alt "></i> Git</li>
+                <br> <br>
+                <li class="skills__list-item btn btn--plain ">C++</li>
+                <li class="skills__list-item btn btn--plain "><i class="fab fa-java" ></i> Java</li>
+                <li class="skills__list-item btn btn--plain "><i class="fab fa-python"></i> Python</li>
+                <li class="skills__list-item btn btn--plain "><i class="fa fa-database " aria-hidden="true "></i> MySQL</li>
+            </ul>
+        </section>
+
+        <section class="section skills " id="skills">
+            <h2 class="section__title ">Soft Skills</h2>
+            <div class="tech-desc ">
+                <p>
+                    These are the soft skills I believe I utilize, and I am obsessively striving to enhance them.
+                </p>
+            </div>
+            <ul class="skills__list border border-primary ">
+                <li class="skills__list-item btn btn--plain ">Eagerness to Learn</li>
+                <li class="skills__list-item btn btn--plain ">Versatility</li>
+                <li class="skills__list-item btn btn--plain ">Logical Thinking</li>
+                <li class="skills__list-item btn btn--plain ">Teamwork</li>
+                <li class="skills__list-item btn btn--plain ">Problem Solving</li>
+                <li class="skills__list-item btn btn--plain ">Communication</li>
+                <li class="skills__list-item btn btn--plain ">Time Management</li>
+                <li class="skills__list-item btn btn--plain ">Initiative</li>
+                <li class="skills__list-item btn btn--plain ">Work Ethic</li>
+                <li class="skills__list-item btn btn--plain ">Leadership</li>
+                <li class="skills__list-item btn btn--plain ">Resilience</li>
+                <li class="skills__list-item btn btn--plain ">Authenticity</li>
+            </ul>
+        </section>
+    
+        <section class="section contact center " id="contact">
+            <h2 class="section__title ">Contact</h2>
+            <p class="contact-desc ">
+                Please feel free to contact me by email or schedule a free consultation. I look forward to hearing from you and discussing how we can work together to bring your ideas to life.            
+            </p>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKCGlzFKcWWvPlSJwCzpZVtNGZjwBXRFKnJwzKrJGXLkCgnZKfMlZtnjshMrmZzTfjSFRkL" target="_blank">
+                <span class="btn btn--outline">deserre.mia@gmail.com</span>
+            </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="social-links ">
+            <a target="_blank " href="https://facebook.com/deserrevinluan" aria-label="twitter " class="link link--icon ">
+                <i class="fa fa-facebook" aria-hidden="true "></i> 
+            </a>        
+            <a target="_blank " href="https://github.com/desvinluan" aria-label="github " class="link link--icon ">
+                <i class="fa fa-github " aria-hidden="true "></i>
+            </a>
+            <a target="_blank " href="https://www.instagram.com/httpseri_/" aria-label="github " class="link link--icon ">
+                <i class="fa fa-instagram" aria-hidden="true "></i>
+            </a>
+        </div>
+        <p>
+            <a href=" " class="link footer__link ">
+                <i class="fa fa-copyright " aria-hidden="true "></i> 2023 Deserre Vinluan. All Rights Reserved.
+            </a>
+        </p>
+    </footer>
+
+    <div class="scroll-container">
+        <div class="scroll-top ">
+            <a aria-label="Scroll up " href="#home">
+                <i aria-hidden="true " class="fas fa-arrow-up "></i>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<script>
+const body = document.body
+
+const btnTheme = document.querySelector('.fa-moon')
+const btnFries = document.querySelector('.fa-bars')
+
+const addThemeClass = (bodyClass, btnClass) => {
+  body.classList.add(bodyClass)
+  btnTheme.classList.add(btnClass)
+}
+
+const getBodyTheme = localStorage.getItem('portfolio-theme')
+const getBtnTheme = localStorage.getItem('portfolio-btn-theme')
+
+addThemeClass(getBodyTheme, getBtnTheme)
+
+const isDark = () => body.classList.contains('dark')
+
+const setTheme = (bodyClass, btnClass) => {
+
+	body.classList.remove(localStorage.getItem('portfolio-theme'))
+	btnTheme.classList.remove(localStorage.getItem('portfolio-btn-theme'))
+
+  addThemeClass(bodyClass, btnClass)
+
+	localStorage.setItem('portfolio-theme', bodyClass)
+	localStorage.setItem('portfolio-btn-theme', btnClass)
+}
+
+const toggleTheme = () =>
+	isDark() ? setTheme('light', 'fa-moon') : setTheme('dark', 'fa-sun')
+
+btnTheme.addEventListener('click', toggleTheme)
+
+const displayList = () => {
+	const navUl = document.querySelector('.nav__list')
+
+	if (btnFries.classList.contains('fa-bars')) {
+		btnFries.classList.remove('fa-bars')
+		btnFries.classList.add('fa-times')
+		navUl.classList.add('display-nav-list')
+	} else {
+		btnFries.classList.remove('fa-times')
+		btnFries.classList.add('fa-bars')
+		navUl.classList.remove('display-nav-list')
+	}
+}
+
+btnFries.addEventListener('click', displayList)
+
+const scrollUp = () => {
+	const btnScrollTop = document.querySelector('.scroll-top')
+
+	if (
+		body.scrollTop > 500 ||
+		document.documentElement.scrollTop > 500
+	) {
+		btnScrollTop.style.display = 'block'
+	} else {
+		btnScrollTop.style.display = 'none'
+	}
+}
+
+document.addEventListener('scroll', scrollUp)
+
+document.getElementById('downloadButton').addEventListener('click', function() {
+    var fileUrl = 'files/RESUME.pdf';
+
+    var downloadLink = document.createElement('a');
+    downloadLink.href = fileUrl;
+
+    downloadLink.download = 'RESUME.pdf';
+
+    document.body.appendChild(downloadLink);
+
+    downloadLink.click();
+
+    document.body.removeChild(downloadLink);
+});
+
+function openLink(link) {
+    window.open(link);
+}
+
+function openFile(filePath) {
+        window.open(filePath, '_blank');
+}
+</script>
