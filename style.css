@@ -608,6 +608,9 @@ img {
         margin-top: 3em;
     }
     .scroll-container {
-        display: none;
+        display: wrap;
+        position: fixed;
+        bottom: 1em;
+        right: 2em;
     }
 }
