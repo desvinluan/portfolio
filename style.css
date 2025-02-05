@@ -280,6 +280,7 @@ main {
 
 .section {
     margin-top: 5em;
+    padding-top: 2em;
     margin-bottom: 10em;
 }
 
@@ -336,6 +337,7 @@ main {
     border: 5px solid #c5d2de21;
     border-radius: 50%;
     max-width: 250px;
+    pointer-events: none;
 }
 
 .right {
@@ -411,6 +413,7 @@ main {
 .about-left img {
     max-width: 300px;
     margin-left: 100px;
+    pointer-events: none;
 }
 
 .about-right {
@@ -445,6 +448,7 @@ img {
     max-width: 100%;
     display: block;
     object-fit: cover;
+    pointer-events: none;
 }
 
 .project:hover {
@@ -592,6 +596,7 @@ img {
     
     .left img {
         margin-bottom: 60px;
+        pointer-events: none;
     }
 
     .about {
@@ -612,6 +617,7 @@ img {
         max-width: 100%;
         margin-top: 1em;
         margin-left: 0;
+        pointer-events: none;
     }    
 
     .footer {
